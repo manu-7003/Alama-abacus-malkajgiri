@@ -298,7 +298,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             message: document.getElementById('message').value
         };
     
-        fetch('https://script.google.com/macros/s/AKfycbz1yBMh0HP2LSy0zVF9Pq6rdPpSm1FDERxrukLgnFa7HWvvg08XGAYqH_Apu0BsyEbk/exec', {
+        fetch('https://script.google.com/macros/s/AKfycbyQaSkN_oI559Kydf94ju9xvKYwdB16d8P3K5Bwrjura2tPIEV04Ykfay_YA6Tv6gi_YA/exec', {
             method: 'POST',
             body: JSON.stringify(data),
             headers: {
